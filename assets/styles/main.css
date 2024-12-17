@@ -167,3 +167,6 @@ img{
     display: none;
   }
 }
+section .d-flex{
+  gap: 50px;
+}
