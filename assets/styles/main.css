@@ -10,7 +10,7 @@
   --alt-text-color: #5d6970;
   --bg: #f3f6ff;
   --alt-bg: #e7ecff;
-  --section-padding: 60px;
+  --section-padding: 150px;
 }
 html {
   scroll-behavior: smooth;
@@ -45,9 +45,15 @@ ul {
 .btn {
   background-color: var(--title-color);
   color: var(--white);
-  padding: 10px;
+  padding: 8px;
   border-radius: 2px;
   text-align: center;
+}
+img{
+  max-width: 100%;
+}
+section{
+  padding: var(--section-padding);
 }
 .container {
   padding: 0 15px;
@@ -71,9 +77,10 @@ ul {
 header {
   position: sticky;
   top: 0;
-  z-index: 10;
   padding: 20px 0;
   background-color: var(--bg);
+  z-index: 1;
+
 }
 header .container {
   display: flex;
@@ -148,7 +155,7 @@ gap: 50px;
   background-color: var(--white);
   border: 2px solid var(--title-color);
   color: var(--title-color);
-  margin-left: 10px;
+padding: 6px;
 }
 @media (min-width:992px) {
   .col{
@@ -156,7 +163,7 @@ gap: 50px;
   }
 }
 @media (max-width:991px) {
-  .hero img{
+img{
     display: none;
   }
 }
