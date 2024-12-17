@@ -38,6 +38,7 @@ ul {
 .discription {
   color: var(--alt-text-color);
   padding: 10px;
+  margin-bottom: 10px;
   line-height: 1.5;
   font-size: 16px;
 }
@@ -124,5 +125,38 @@ justify-content: space-between;
 flex-wrap: wrap;
 gap: 50px;
 
+  }
+}
+.hero{
+  padding: var(--section-padding);
+}
+.hero h1{
+  font-size: 48px;
+  padding-bottom: 10px;
+
+}
+.hero-info{
+  gap: 40px;
+}
+.hero-info img{
+  width: 50%;
+  position: absolute;
+  top: 0;
+  right:0 ;
+}
+.hero .learn{
+  background-color: var(--white);
+  border: 2px solid var(--title-color);
+  color: var(--title-color);
+  margin-left: 10px;
+}
+@media (min-width:992px) {
+  .col{
+    width: 45%;
+  }
+}
+@media (max-width:991px) {
+  .hero img{
+    display: none;
   }
 }
